@@ -1,0 +1,20 @@
+.bg-image {
+  font-size: 65px;
+  color: white;
+  letter-spacing: 10px;
+  height: 430px;
+  background-image: url("../../../assets/bg-honor2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.honor-list-layout {
+  min-height: 635px;
+  margin: 50px 0 50px 0;
+}
+.honor-paging {
+  width: fit-content;
+  margin: 0 auto;
+}

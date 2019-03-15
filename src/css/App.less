@@ -1,0 +1,145 @@
+
+/* 全局*/
+@color:#f1f1f1;
+@layoutWidth:1250px;
+@border:1px red solid;
+#app {
+  min-width:1250px;
+  // 改
+  margin-top:70px;  
+  min-height: 100vh;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  background: #f7f7f7;
+  //改
+  // overflow-x:auto;
+}
+.page-mid {
+  width: @layoutWidth;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.footer-frame{
+  width:100%;
+  background: white;
+  height: 150px;
+  display: flex;
+}
+.footer-inside-info {
+  height: 150px;
+  min-width: @layoutWidth;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+.fearlessImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.big-title {
+  color: white;font-size:50px;padding-top:170px;
+  letter-spacing: 5px;
+}
+.title-text{
+  line-height: 30px;
+  margin-top:30px;
+  width:650px;
+  text-align: left;
+  letter-spacing: 1px;
+  color:white;
+  // color:#CDCDCD;
+  font-size:18px;
+}
+.title-text-2{
+  color:white;
+  // color:#CDCDCD;
+  font-size:18px;
+  width:650px;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+// 导航栏  APP页样式
+.navigation-layout {
+  // background: #343434;
+  background:#035483; 
+  box-shadow: #272727 0px 0px 5px;
+  min-width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  box-sizing:border-box;
+  z-index: 999;
+}
+
+.navigation-inside-layout {
+  width: 1200px;
+  height: 70px;
+  margin: auto;
+}
+.icon-box{
+  float:left;
+  height:70px;
+  margin-right:15px;
+  img{
+    width:70px;
+    height:70px;
+  }
+}
+.navigation-cell {
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  width: 80px;
+  height: 70px;
+  transition: all 0.25s;
+  // color: @color;
+  color:white;
+  // color:#34495e;
+}
+
+.navigation-cell:hover {
+  // background: #454545;
+  background:#136a9c;
+  color: white; 
+}
+
+.navigation-hoverColor {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 5px;
+  transition: all 0.25s;
+}
+
+.navigation-cell:hover .navigation-hoverColor {
+  background: #f1f1f1;
+}
+
+.navigation-problem {
+  float: right;
+  margin-top: 25px;
+  margin-left: 30px;
+  color: @color;
+}
+
+.navigation-search {
+  width: 270px;
+  float: right;
+  margin-top: 17px;
+}
+// 导航栏
+
+
+
+// color:  #035483;  #136a9c  #859dad;   box-shadow:0px 0px 12px rgba(79, 158, 236, 0.7)

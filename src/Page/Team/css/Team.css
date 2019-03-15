@@ -1,0 +1,24 @@
+.team-page-bg {
+  height: 600px;
+  background-image: url("../../../assets/bg-team2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button2 {
+  margin-top: 60px;
+  width: 180px;
+  height: 55px;
+  border: 1px solid #ffffff;
+  border-radius: 3px 3px 3px 3px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 17px;
+  color: white;
+  transition: all 0.4s;
+}
+.button2:hover {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}

@@ -1,0 +1,71 @@
+
+@border:1px red solid;
+.up-one-layout,
+.next-one-layout{
+  width:175px;
+}
+.up-one-button,
+.next-one-button{
+  position: fixed;
+  top:500px;
+  font-size:70px;
+  transition: all 0.3s;
+  color:#9ea7b4;
+}
+.up-one-layout{
+  padding-left:15px;
+  text-align: left;
+}
+.next-one-layout{
+  text-align: center;
+}
+.up-one-button:hover,
+.next-one-button:hover{
+  color:#676767;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+  /* 左-右进入 */
+  .goLeft-enter-active{
+    opacity: 0;
+    transition: all .35s;
+    transform:translateX(-15vw);
+  }
+  .goLeft-enter-to{
+    opacity: 1;
+    transform:translateX(0);
+  }
+  /* 左-右渐出 */
+  .goLeft-leave-active{
+    transition: all .35s;
+    transform:translateX(0);
+  }
+  .goLeft-leave-to{
+    opacity: 0;
+    transform:translateX(15vw);
+  }
+   /* 右-左进入 */
+  .goRight-enter-active{
+    opacity: 0;
+    transition: all .35s;
+    transform:translateX(15vw);
+  }
+  .goRight-enter-to{
+    opacity: 1;
+    transform:translateX(0);
+  }
+  /* 右-左渐出 */
+  .goRight-leave-active{
+    transition: all .35s;
+    transform:translateX(0);
+  }
+  .goRight-leave-to{
+    opacity: 0;
+    transform:translateX(-15vw);
+  }
