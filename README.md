@@ -1,6 +1,6 @@
 # Works-exhibition-network
 
-> A Vue.js project
+> 科研与竞赛展示网
 
 
 ## 启动
