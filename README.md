@@ -1,6 +1,6 @@
 # Works-exhibition-network
 
-> 科研与竞赛展示网
+> 科研竞赛展示网
 
 
 ## 启动
